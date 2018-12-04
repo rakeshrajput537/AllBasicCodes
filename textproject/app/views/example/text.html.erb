@@ -1,0 +1,19 @@
+<h1>First experiment with </h1>
+<p>
+	Addition:
+	<%= 1 +1 %>
+</p>
+<p>
+	For loop:
+	<% (0..5).each do |i| %>
+	<%= "#{i}, " %>
+	<% end %>
+</p>
+<p>
+	the current is 
+	<%= @current_time %>
+</p>
+<%= render "shared/footer" %>
+<p>
+	<b>Ratings:</b> <%= render_stars(5) %>
+</p>

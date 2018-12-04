@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SVG</title>
+</head>
+<body>
+	<svg id="svg1" height="400px" width="600px" style="background-color: pink;border:5px solid grey;margin: 10px">
+		<!-- REACTANGLE -->
+		<rect id="myRect" x="10px" y="10px" fill="blue" height="100px" width="100px" />
+		<rect id="myRect" x="120px" y="10px" fill="blue" height="20" width="120px" style="stroke: red;stroke-width:10px">
+			<animateMotion
+			path="M10,50 q60,50 100,0 q60,-50 100,0"
+			begin="0s" dur="10s"
+			repeatCount="indefinite"/>
+			
+		</rect>
+
+	<!-- 	CIRCLE -->
+	<circle cx="200" cy="200" r="100px" fill="yellow"/>
+	<circle cx="200" cy="200" r="50px" fill="red" style="stroke: blue">
+		 <set attributeName="r" attributeType="XML"
+		 to="100px"
+		 begin="10s"/>
+             
+	</circle>
+
+	   <!--  LINE -->
+	   <line x1="0" y1="0" x2="600" y2="400" style="stroke: black;stroke-width:10">
+	   	<animateTransform attributeName="transform"
+			type="scale"
+			from="1 1" to="3 3"
+			begin="0s" dur="10s"
+			repeatCount="indefinite"/>
+	   </line>
+
+	 <!--  ELLIPSE -->
+	 <ellipse cx="400" cy="200" rx="70" ry="35" fill="white" style="stroke: grey" ></ellipse>
+
+	<!--  POLYGON -->
+	<polygon points="500,50 580,100 420,100" fill="green" stroke="red" stroke-width="1px">
+	</polygon>
+
+	</svg>
+
+</body>
+</html>

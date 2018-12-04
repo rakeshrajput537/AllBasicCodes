@@ -1,0 +1,86 @@
+<main id="posts-home">
+	<div class="Group-link">Group Links</div>
+	<div class="dewar-posts">
+		<div class="new-post-form">
+			<% if user_signed_in? %>
+			<%= form_for @post do |f| %>
+				<%= f.label :content %>
+				<%= f.text_area :content %>
+
+				<%= f.submit %>
+			<% end %>
+			<% end %>
+		</div>
+		<div>
+			<ul class="post-list">
+				<% @posts.reverse.each do |post| %>
+				<li class="li-list">
+					<div>
+						<p><h3><%= post.user.email %></h3></p>
+						<p><%= post.content %></p>
+						
+						<% if user_signed_in? && current_user.id==post.user_id%>
+						<p><%= link_to "Delete", destroy_post_path(post.id), method: :delete %></p>
+						<%end %>
+						<% if user_signed_in? %>
+						<p>
+							<sub>
+								<%= post.likes.length %>
+								&nbsp
+								<%= link_to post.like_status_string(current_user.id), toggle_like_path(post.id), method: :post %>
+							</sub>
+						</p>
+						<% else %>
+						<sub>
+								<%= post.likes.length %> Likes
+						
+							</sub>
+						<% end %>
+						<div>
+							<h5>Add Comment</h5>
+							<% if user_signed_in? %>
+							<%= form_for @comment do |f| %>
+								<%= f.hidden_field :post_id, value: post.id %>
+
+								<%= f.label :content %>
+								<%= f.text_area :content %>
+
+								<%= f.submit %>
+							<% end %>
+							<% end %>
+
+							<ul>
+								<% post.comments.reverse.each do |comment| %>
+								<li>
+									<p><%= comment.content %>
+										<sub><%= comment.user.email %></sub>
+									</p>
+									<% if user_signed_in? && comment.user_id ==  current_user.id %>
+										<p><%= link_to "Delete", destroy_comment_path(comment.id), method: :delete %></p>
+										<% end %>
+
+								</li>
+
+								<% end %>
+							</ul>
+
+
+						</div>
+					</div>
+				</li>
+				<% end %>
+			</ul>
+		</div>
+
+
+
+
+
+
+
+
+
+
+	</div>
+	<div class="Friends-list">Friends</div>
+</main>

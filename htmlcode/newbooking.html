@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>eTicketing System</title>
+<meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="homepage.css">
+  <link href='https://fonts.googleapis.com/css?family=Berkshire Swash' rel='stylesheet'>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/js/bootstrap-datepicker.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/css/bootstrap-datepicker3.css"/>
+<script src="booking.js"></script>
+</head>
+<body>
+	<script>
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip();   
+});
+</script>
+<div class="img-responsive row1">
+  <nav class="navbar transparent navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header" style="display: flex; width: 100%;">
+        <!--<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>-->
+        <a class="navbar-brand" href="#" data-toggle="tooltip" title="Saarthi">Saarthi</a>
+      <!--<div class="collapse navbar-collapse" id="myNavbar" style="width: 100%;">-->
+        <ul class="nav navbar-nav" style="padding-left: 250px; width: 100%;">
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="ntext"><span class="glyphicon glyphicon-user" style="margin-right: 5px;"></span>My Account
+          <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">My Bookings</a></li>
+            <li style="display: flex;"><button class="btn btn-danger navbar-btn" style="margin: 10px; margin-right: 15px; margin-left: 20px;">Login
+            </button><button class="btn btn-danger navbar-btn" style="margin: 10px;">Sign up</button></li>
+            <li><a href="#">Saarthi for Travel Agents</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="ntext"><span class="glyphicon glyphicon-registration-mark" style="margin-right: 5px;"></span>Trains
+          <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Page 1-2</a></li>
+            <li><a href="#">Page 1-3</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="ntext"><span class="glyphicon glyphicon-plane" style="margin-right: 5px;"></span>Flights
+          <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Page 1-1</a></li>
+            <li><a href="#">Page 1-2</a></li>
+            <li><a href="#">Page 1-3</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="ntext"><span class="glyphicon glyphicon-film" style="margin-right: 5px;"></span>Movies
+          <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Page 1-1</a></li>
+            <li><a href="#">Page 1-2</a></li>
+            <li><a href="#">Page 1-3</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="ntext"><span class="glyphicon glyphicon-cd" style="margin-right: 5px;"></span>Events
+          <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Page 1-1</a></li>
+            <li><a href="#">Page 1-2</a></li>
+            <li><a href="#">Page 1-3</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="ntext"><span class="glyphicon glyphicon-briefcase" style="margin-right: 5px;"></span>Tour Packages
+          <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Page 1-1</a></li>
+            <li><a href="#">Page 1-2</a></li>
+            <li><a href="#">Page 1-3</a></li>
+          </ul>
+        </li>
+        </ul>
+    </div>
+   </div>
+  </nav>
+  <div>
+	<p style="font-style: ">Confirm & complete your booking<p>
+	<div  style="width:300px; height: 80px; background-color: white; margin-left: 500px; margin-top: 100px; ">
+		
+			<div style="margin-top: : 30px; "><img src="passanger.png" style=" border-radius: 10%; border-radius-color: blue; margin-left: 30px; margin-top: 10px; " ><br/>Passenger Details </div>
+			<div style="margin-left: 250px; margin-top: -60px"><img src="reviewG.png"><br/>Review Booking</div>
+
+		
+	</div>
+	Note: The ID card will be required during journey.
+	<div class="form-group" id="adult" >
+		
+		<form name="frm">
+			
+             <div id="addAdult" style="" class="d-inline p-2 bg-dark text-white">
+				<input type="text" name="Name" placeholder="Name" id="name" required style="background-color: white">
+				<input type="number" name="Age" placeholder="Age" min="5" max="120" required>
+				<select>
+					<option value="Gender" selected>Gender</option>
+					<option value="Male">Male</option>
+					<option value="Female">Female</option>
+					<option value="Transgender">Transgender</option>
+				</select>
+				<select>
+					<option value="NoPreference* " selected>No Preference </option>
+					<option value="Lower">Lower</option>
+					<option value="Middle">Middle</option>
+					<option value="Upper">Upper</option>
+					<option value="SideLower">Side Lower</option>
+					<option value="SideUpper">Side Upper</option>
+
+				</select>
+				<select>
+					<option value="Food" selected>Food</option>
+					<option value="Veg">Veg</option>
+					<option value="NonVeg">Non Veg</option>
+					
+				</select>
+				<select>
+					<option value="India" selected>India</option>
+					<option value="China">China</option>
+					<option value="Japan">Japan</option>
+					<option value="UK">United Kingdom</option>
+				</select>
+			</div>
+			
+         
+    </div>
+    	
+         <h4 id="addPassenger">+ Add Passenger</h4>
+     	Travelling with a Child below 5 Years of age? <a  class="addInfant">Click Here</a> to enter details.
+     	<div id="Child" >
+     	
+     		
+     			<div id="addChild">
+     			<input type="text" name="Name" placeholder="Name" id="name" style="background-color: white;">
+     			<select>
+					<option value="ChildAge" selected>Age</option>
+					<option value="BelowOneYear">Below One Year</option>
+					<option value="OneYear">One Year</option>
+					<option value="TwoYears">Two Years</option>
+					<option value="ThreeYears">Three Years</option>
+					<option value="Four Years">Four Years</option>
+				</select>
+				<select>
+					<option value="ChildGender" selected>Gender</option>
+					<option value="Male">Male</option>
+					<option value="Female">Female</option>
+					Tickets is not to be issued
+				</select>
+                </div>
+     	
+     	
+     	</div>
+     	 <h4 class="addInfant">+ Add Infants</h4>
+     
+
+     <h4>Please ensure that the names of all passengers match with their travel documents*.</h4>
+     <div>
+     
+     		<span>
+     		E-mail Id:&nbsp;<input type="text" name="email" placeholder="name@example.com" id="txtEmail">
+     		E-mail will be send to this id.
+     	</span>
+        <span>
+               Mob No:&nbsp;<input type="text" name="txtPhone">
+           </span>
+        </form>
+       </div>
+     <button type="submit" id="btnValidate" class="btn btn-primary">Continue Booking</button>
+     <button type="submit" class="btn btn-primary">Replan Booking</button>
+ </div>
+</body>
+</html>

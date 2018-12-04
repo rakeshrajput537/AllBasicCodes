@@ -1,0 +1,97 @@
+<p id="notice"><%= notice %></p>
+<!-- <table>
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th>Description</th>
+      <th>Price</th>
+      <th>Image</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @products.each do |product| %>
+      <tr>
+        <td><%= product.title %></td>
+        <td><%= product.description %></td>
+        <td><%= link_to image_tag(product.image.url, class: 'media-object'), product.image.url, target: '_blank' %></td>
+        <td><%= product.price %></td>
+        <td><%= link_to 'Show', product %></td>
+        <td><%= link_to 'Edit', edit_product_path(product) %></td>
+        <td><%= link_to 'Destroy', product, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table> -->
+<!-- ********** New view********** -->
+<div class="container" id="product-section">
+  <% @products.each do |product| %>
+  <div class="row" style="margin-top: 10px;padding-bottom: 10px; border-bottom: 1px dashed grey;background-color: white;padding: 5px">
+    <div class="col-md-5">
+      <%= link_to image_tag(product.image.url, class: 'media-object',style:'max-width: 400px; max-height:300px;box-shadow:3px 5px grey'), product.image.url, target: '_blank' %>
+    </div>
+    <div class="col-md-7" style="text-align: center;">
+      <div class="row">
+        <div class="col-md-12">
+          <h1><%= product.title %></h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <span class="label label-primary">Product Id.</span>
+          <span class="monospaced">###<%= product.id %></span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <p class="description">
+            <%= product.description %>
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 bottom-rule">
+          <h2 class="product-price">Rs.<%= product.price %>/-</h2>
+          <h4>Contact No.: +91 <%=product.mobile %></h4>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+        <%= link_to "<span class='label label-primary'>Edit</span>".html_safe, edit_product_path(product) %>
+        <%= link_to "<span class='label label-primary'>Delete</span>".html_safe, product, method: :delete, data: { confirm: 'Are you sure?' } %>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+  <% end %>
+  
+</div>
+<!-- ********** End of new view******* -->
+<!-- <div class="col-md-8">
+<div class="media>
+   <% @products.each do |product| %>
+   <div class="card mb-4">
+      <div class="media-body">
+        <h4 class="media-heading"><%= product.title %></h4>
+      </div>
+        <%= product.description %>
+      <div class="media-left">
+   
+        <%= link_to image_tag(product.image.url, class: 'media-object',style:'max-width: 400px; max-height:400px;'), product.image.url, target: '_blank' %>
+        
+      </div> 
+        <%= product.price %>
+        <%= link_to 'Show', product %>
+        <%= link_to 'Edit', edit_product_path(product) %>
+        <%= link_to 'Destroy', product, method: :delete, data: { confirm: 'Are you sure?' } %>
+      
+    <% end %>
+  </div>
+  </div>
+  </div> -->
+
+
+
+

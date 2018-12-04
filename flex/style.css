@@ -1,0 +1,17 @@
+.parentDiv{
+	display: flex;
+	background-color: blue;
+	
+	flex-direction: row-reverse;
+	justify-content: space-around;
+}
+.childDiv{
+	background-color: pink;
+	width: 150px;
+	height: 150px;
+	border-radius: 5px;
+	text-align: center;
+	font-family: cursive;
+	font-size: 45px;
+
+}

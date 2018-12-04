@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Homepage</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="homepage.css">
+  <link href='https://fonts.googleapis.com/css?family=Berkshire Swash' rel='stylesheet'>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/js/bootstrap-datepicker.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/css/bootstrap-datepicker3.css"/>
+
+<script>
+  $(document).ready(function(){
+    var date_input=$('input[name="date"]'); //our date input has the name "date"
+    var container=$('.bootstrap-iso form').length>0 ? $('.bootstrap-iso form').parent() : "body";
+    date_input.datepicker({
+      format: 'mm/dd/yyyy',
+      container: container,
+      todayHighlight: true,
+      autoclose: true,
+    })
+  })
+</script>
+<script type="text/javascript" src="https://formden.com/static/cdn/formden.js"></script>
+<link rel="stylesheet" href="https://formden.com/static/cdn/font-awesome/4.4.0/css/font-awesome.min.css" />
+    <!--function checkScroll()
+    {
+    var startY = $('.navbar').height() * 2; //The point where the navbar changes in px
+
+    if($(window).scrollTop() > startY){
+        $('.navbar').addClass("scrolled");
+    }else{
+        $('.navbar').removeClass("scrolled");
+    }
+    }
+
+    if($('.navbar').length > 0){
+    $(window).on("scroll load resize", function(){
+        checkScroll();
+    });
+    }-->
+<script>
+    $(window).scroll(function () {
+    if ($(window).scrollTop() >= 100) {
+    $('.nav').css({"background":"white","width": "200%","color":"black","transition":"0.2s"});
+    $("li a").css({"color":"black"});
+    $('.navbar-brand').css({"font-family": 'Berkshire Swash',"font-size": "40px","padding-left": "120px","background":"white","padding-top":"15px","transition":"0.2s"});
+    $(".dropdown-menu").css({"color":"black"});
+    } else {
+    $('.nav').css('background','transparent');
+    $('.navbar-brand').css({"font-family": 'Berkshire Swash',"font-size": "60px","padding-left": "180px","background":"transparent","padding":"30px"});
+    //$("li a").css({"color":"white"});
+    $(".dropdown-menu").css({"color":"black"});
+    }
+    });
+  </script>
+  <script>
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip();   
+});
+</script>
+</head>
+<body>
+<script>
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip();   
+});
+</script>
+<div class="img-responsive row1">
+  <nav class="navbar transparent navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header" style="display: flex; width: 100%;">
+        <!--<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>-->
+        <a class="navbar-brand" href="#" data-toggle="tooltip" title="Saarthi">Saarthi</a>
+      <!--<div class="collapse navbar-collapse" id="myNavbar" style="width: 100%;">-->
+        <ul class="nav navbar-nav" style="padding-left: 250px; width: 100%;">
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="ntext"><span class="glyphicon glyphicon-user" style="margin-right: 5px;"></span>My Account
+          <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">My Bookings</a></li>
+            <li style="display: flex;"><button class="btn btn-danger navbar-btn" style="margin: 10px; margin-right: 15px; margin-left: 20px;">Login
+            </button><button class="btn btn-danger navbar-btn" style="margin: 10px;">Sign up</button></li>
+            <li><a href="#">Saarthi for Travel Agents</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="ntext"><span class="glyphicon glyphicon-registration-mark" style="margin-right: 5px;"></span>Trains
+          <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Page 1-2</a></li>
+            <li><a href="#">Page 1-3</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="ntext"><span class="glyphicon glyphicon-plane" style="margin-right: 5px;"></span>Flights
+          <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Page 1-1</a></li>
+            <li><a href="#">Page 1-2</a></li>
+            <li><a href="#">Page 1-3</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="ntext"><span class="glyphicon glyphicon-film" style="margin-right: 5px;"></span>Movies
+          <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Page 1-1</a></li>
+            <li><a href="#">Page 1-2</a></li>
+            <li><a href="#">Page 1-3</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="ntext"><span class="glyphicon glyphicon-cd" style="margin-right: 5px;"></span>Events
+          <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Page 1-1</a></li>
+            <li><a href="#">Page 1-2</a></li>
+            <li><a href="#">Page 1-3</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="ntext"><span class="glyphicon glyphicon-briefcase" style="margin-right: 5px;"></span>Tour Packages
+          <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Page 1-1</a></li>
+            <li><a href="#">Page 1-2</a></li>
+            <li><a href="#">Page 1-3</a></li>
+          </ul>
+        </li>
+        </ul>
+    </div>
+   </div>
+  </nav>
+  <div class="container">
+    <div class="intro">Book Train Tickets</div>
+    <div class="search-bar">
+      <form action="https://formden.com/post/MlKtmY4x/" class="form-horizontal" method="post">
+      <div class="col-md-4">
+        <input class="form-control input-lg" id="inputlg" type="text" placeholder="From" required>
+      </div>
+      <div class="col-md-4">
+        <input class="form-control input-lg" id="inputlg" type="text" placeholder="To" required>
+      </div>
+      <div class="col-md-4">
+        <div class="col-sm-8">
+        <div class="form-group">
+          <div class="input-group">
+        <div class="input-group-addon">
+         <span class="glyphicon glyphicon-calendar">
+         </span>
+        </div>
+        <input class="form-control input-lg" id="date" name="date" placeholder="Depart Date" type="text"/>
+        </div>
+      </div>
+    </div>
+      <div class="col-sm-4">
+      <input name="_honey" class="form-control" style="display:none" type="text"/>
+      <button class="btn btn-primary " name="submit" type="submit" style="margin:10px; background-color: red; border: none; padding-left: 17px; padding-right: 17px; font-size: 15px;">
+        Submit
+       </button>
+     </div>
+      </div>
+    </form>
+    </div>
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Text</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    <!-- ***********this is for next and previous************ -->
+       <ul class="pager">
+         <li><a href="#">Previous</a></li>
+         <li><a href="#">Next</a></li>
+       </ul>
+    <!-- ******************end of next and previous********** -->
+
+    <% if user_signed_in? %>
+    <%= current_user.email %>
+    <%= link_to "Sign Out",destroy_user_session_path, method: :delete %> 
+    <% else %>
+    <%= link_to "sign up",new_user_registration_path %>
+    <%= link_to "Google In", user_google_oauth2_omniauth_authorize_path %><br />
+    <% end %>
+    <%= yield %>
+  </body>
+</html>

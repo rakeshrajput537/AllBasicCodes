@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>NITPOLX</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body >
+    <!-- Renders navigation file located at app/views/layouts/_navigation.html.erb -->
+    <%= render "layouts/navigation" %>
+    <div class="container-fluid" style="background-color:#e3e6e3;height: 100vh">
+    <div class="container" style="margin-top: 65px;" >
+      
+    <%= yield %>
+    </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,43 @@
+h <p id="notice"><%= notice %></p>
+
+
+<p>
+  <strong>Title:</strong>
+  <%= @post.title %>
+</p>
+
+<p>
+  <strong>Content:</strong>
+  <%= @post.content %>
+</p>
+
+<p>
+  <strong>User:</strong>
+  <%= @post.user_id %>
+</p>
+
+<div>
+	<% if user_signed_in? %>
+	<%= form_for @comment do |f| %>
+	<%= f.label :content %>
+	<%= f.text_area :content %>
+	<%= f.hidden_field :post_id, value: @post.id %>
+	<%= f.submit %>
+	<% end %>
+	<% end %>
+</div>
+<ul>
+	<% @post.comments.reverse.each do |comment| %>
+	<div style="color: pink">
+	<li><%= comment.content %></li>
+	<% if comment.user_id==current_user.id %>
+	<%= link_to 'delete', {controller:'comments' , action:'destroy', id: comment.id }, method: :delete %>
+	<% end %>
+	</div>
+	<% end %>
+</ul>
+	
+
+
+<%= link_to 'Edit', edit_post_path(@post) %> |
+<%= link_to 'Back', posts_path %>

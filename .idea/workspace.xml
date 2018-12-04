@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ee7039f0-2e2c-42a5-b083-21cc55f5d728" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/deviseproject/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/julygit/Argentina.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/texting/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AJAX/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/AJAX/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/attendence/app/assets/stylesheets/application.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/attendence/app/controllers/students_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/attendence/app/controllers/students_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/attendence/app/models/student.rb" beforeDir="false" afterPath="$PROJECT_DIR$/attendence/app/models/student.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/attendence/app/models/user.rb" beforeDir="false" afterPath="$PROJECT_DIR$/attendence/app/models/user.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/attendence/app/views/students/_form.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/attendence/app/views/students/_form.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/attendence/app/views/students/_student.json.jbuilder" beforeDir="false" afterPath="$PROJECT_DIR$/attendence/app/views/students/_student.json.jbuilder" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/attendence/app/views/students/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/attendence/app/views/students/index.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/attendence/app/views/students/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/attendence/app/views/students/show.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/attendence/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/attendence/config/routes.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/attendence/db/migrate/20180807072154_create_students.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/attendence/db/migrate/20180808121121_add_user_id_to_students.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/attendence/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/attendence/db/schema.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/attendence/test/controllers/students_controller_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/attendence/test/controllers/students_controller_test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/attendence/test/fixtures/students.yml" beforeDir="false" afterPath="$PROJECT_DIR$/attendence/test/fixtures/students.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/attendence/test/system/students_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/attendence/test/system/students_test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calC/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/calC/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/connecti1/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/connecti1/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/connecti1/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/connecti1/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/connecti1/app/assets/stylesheets/application.scss" beforeDir="false" afterPath="$PROJECT_DIR$/connecti1/app/assets/stylesheets/application.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/connecti1/app/assets/stylesheets/posts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/connecti1/app/assets/stylesheets/posts.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/connecti1/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/connecti1/app/views/layouts/application.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/connecti1/app/views/posts/home.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/connecti1/app/views/posts/home.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/connecti2/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/connecti2/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/connecti2/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/connecti2/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/connecti2/app/assets/javascripts/application.js" beforeDir="false" afterPath="$PROJECT_DIR$/connecti2/app/assets/javascripts/application.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/connecti2/app/assets/stylesheets/application.scss" beforeDir="false" afterPath="$PROJECT_DIR$/connecti2/app/assets/stylesheets/application.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/connecti2/app/assets/stylesheets/posts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/connecti2/app/assets/stylesheets/posts.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/connecti2/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/connecti2/app/views/layouts/application.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/connecti2/app/views/posts/home.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/connecti2/app/views/posts/home.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/connecti2/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/connecti2/config/routes.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/connecti2/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/connecti2/db/schema.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/connecti2/db/seeds.rb" beforeDir="false" afterPath="$PROJECT_DIR$/connecti2/db/seeds.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/connecti3/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/connecti3/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/connecti3/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/connecti3/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/connecti3/app/assets/javascripts/application.js" beforeDir="false" afterPath="$PROJECT_DIR$/connecti3/app/assets/javascripts/application.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/connecti3/app/controllers/posts_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/connecti3/app/controllers/posts_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/connecti3/app/views/posts/home.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/connecti3/app/views/posts/home.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/connecti4/config/initializers/devise.rb" beforeDir="false" afterPath="$PROJECT_DIR$/connecti4/config/initializers/devise.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/connecti4/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/connecti4/config/routes.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/connecti5/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/connecti5/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/connecti5/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/connecti5/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/connecti5/app/assets/javascripts/application.js" beforeDir="false" afterPath="$PROJECT_DIR$/connecti5/app/assets/javascripts/application.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/connecti5/app/assets/stylesheets/application.scss" beforeDir="false" afterPath="$PROJECT_DIR$/connecti5/app/assets/stylesheets/application.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/connecti5/app/assets/stylesheets/posts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/connecti5/app/assets/stylesheets/posts.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/connecti5/app/controllers/comments_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/connecti5/app/controllers/comments_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/connecti5/app/mailers/user_mailer.rb" beforeDir="false" afterPath="$PROJECT_DIR$/connecti5/app/mailers/user_mailer.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/connecti5/app/models/user.rb" beforeDir="false" afterPath="$PROJECT_DIR$/connecti5/app/models/user.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/connecti5/app/views/devise/registrations/edit.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/connecti5/app/views/devise/registrations/edit.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/connecti5/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/connecti5/app/views/layouts/application.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/connecti5/app/views/posts/home.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/connecti5/app/views/posts/home.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/connecti5/app/views/user_mailer/new_comment.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/connecti5/app/views/user_mailer/new_comment.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/connecti5/config/environments/development.rb" beforeDir="false" afterPath="$PROJECT_DIR$/connecti5/config/environments/development.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/connecti5/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/connecti5/config/routes.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/connecti5/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/connecti5/db/schema.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/connecti5/dump.rdb" beforeDir="false" afterPath="$PROJECT_DIR$/connecti5/dump.rdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/connecti5/test/mailers/previews/user_mailer_preview.rb" beforeDir="false" afterPath="$PROJECT_DIR$/connecti5/test/mailers/previews/user_mailer_preview.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iochat/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/iochat/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaScript/custom.js" beforeDir="false" afterPath="$PROJECT_DIR$/javaScript/custom.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaScript/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/javaScript/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaScript/jquery.html" beforeDir="false" afterPath="$PROJECT_DIR$/javaScript/jquery.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaScript/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/javaScript/jquery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pin/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/pin/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pin/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pin/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pin/app/models/poke.rb" beforeDir="false" afterPath="$PROJECT_DIR$/pin/app/models/poke.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pin/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/pin/db/schema.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teamjunegit/team3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/teamjunegit/team3.txt" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="43008757">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="erb" value="9" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="RHTML" value="9" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.actions.runAnything" />
+      <usages-collector id="statistics.vcs.git.usages" />
+      <usages-collector id="statistics.file.extensions.open" />
+      <usages-collector id="statistics.file.types.open" />
+      <usages-collector id="statistics.js.language.service.starts" />
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/index.erb" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/connecti5/connectichat/node_modules" />
+    <handled-path value="$PROJECT_DIR$/iochat/node_modules" />
+    <handled-path value="$PROJECT_DIR$/socket-node/node_modules" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/NITPOLX/package.json" />
+      <path value="$PROJECT_DIR$/RathRails/package.json" />
+      <path value="$PROJECT_DIR$/atten/attendence-1/package.json" />
+      <path value="$PROJECT_DIR$/attendence/package.json" />
+      <path value="$PROJECT_DIR$/connecti1/package.json" />
+      <path value="$PROJECT_DIR$/connecti2/package.json" />
+      <path value="$PROJECT_DIR$/connecti3/package.json" />
+      <path value="$PROJECT_DIR$/connecti4/package.json" />
+      <path value="$PROJECT_DIR$/connecti5/connectichat/package.json" />
+      <path value="$PROJECT_DIR$/connecti5/package.json" />
+      <path value="$PROJECT_DIR$/connecty/package.json" />
+      <path value="$PROJECT_DIR$/deviseproject/package.json" />
+      <path value="$PROJECT_DIR$/gems/package.json" />
+      <path value="$PROJECT_DIR$/iochat/package.json" />
+      <path value="$PROJECT_DIR$/mitra/package.json" />
+      <path value="$PROJECT_DIR$/pin/package.json" />
+      <path value="$PROJECT_DIR$/practice/package.json" />
+      <path value="$PROJECT_DIR$/socket-node/package.json" />
+      <path value="$PROJECT_DIR$/text/package.json" />
+      <path value="$PROJECT_DIR$/texting/package.json" />
+      <path value="$PROJECT_DIR$/textproject/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="40" />
+    <option name="y" value="50" />
+    <option name="width" value="1400" />
+    <option name="height" value="837" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="codes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codes" type="462c0819:PsiDirectoryNode" />
+              <item name="texting" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ee7039f0-2e2c-42a5-b083-21cc55f5d728" name="Default Changelist" comment="" />
+      <created>1538810572312</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1538810572312</updated>
+      <workItem from="1538810573542" duration="235000" />
+      <workItem from="1538811704240" duration="16000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="251000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="40" y="50" width="1400" height="837" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2533137" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3293011" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

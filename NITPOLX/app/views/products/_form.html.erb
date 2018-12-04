@@ -1,0 +1,41 @@
+<%= form_with(model: product, local: true) do |form| %>
+  <% if product.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(product.errors.count, "error") %> prohibited this product from being saved:</h2>
+
+      <ul>
+      <% product.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :title %>
+    <%= form.text_field :title, placeholder:'Enter product name or Model No...', class: 'form-control' %>
+  </div>
+
+  <div class="field">
+    <%= form.label :description %>
+    <%= form.text_area :description, placeholder:'Write product description....', class: 'form-control' %>
+  </div>
+  <div class="field">
+    <%= form.label :image %>
+    <%= form.file_field :image, class: 'form-control' %>
+  </div>
+
+  <div class="field">
+    <%= form.label :price %>
+    <%= form.number_field :price,placeholder:'Enter your product price..', class: 'form-control' %>
+  </div>
+  <div class="field">
+    <%= form.label :mobile %>
+    <%= form.number_field :mobile, placeholder:'Enter your 10 digit mobile Number..', class: 'form-control' %>
+  </div>
+  
+
+  <div class="actions">
+    <%= form.submit 'Upload Product', class: 'btn btn-default', data: {confirm: 'After sold out your product please Delete it?' } %>
+  </div>
+<% end %>
